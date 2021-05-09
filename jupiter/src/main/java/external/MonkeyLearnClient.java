@@ -15,7 +15,7 @@ import com.monkeylearn.MonkeyLearnResponse;
 public class MonkeyLearnClient {
 	
 	
-	private static final String API_KEY = api_key;
+	private static final String API_KEY = $API_KEY;
 
 	public static List<List<String>> extractKeywords(String[] text) {
 		if (text == null || text.length == 0) {
